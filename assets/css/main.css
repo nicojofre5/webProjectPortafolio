@@ -26,6 +26,22 @@ body{
     height: 60px;
     grid-column: 2/3;
 }
+.nav-bar .menu{
+    grid-column: 4/7;
+    display: flex;
+    justify-content: space-around;
+
+}
+li a{
+    color: #181818;
+}
+.nav-bar .menu-bar{
+    display: none;
+}
+.nav-bar .shopping{
+    grid-column: 8/9;
+    cursor: pointer;
+}
 /*Fuentes  */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300&family=Roboto:ital,wght@0,100;0,400;1,500&display=swap');
