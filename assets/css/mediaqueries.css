@@ -1,6 +1,7 @@
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:700px) {
     .nav-bar{
         position: relative;
+
     }
     .nav-bar .shopping{
         display: none;
@@ -10,6 +11,7 @@
         grid-column: 8/9;
         font-size: 2em;
         cursor: pointer;
+        z-index: 1;
       
     }
     .nav-bar .menu{
@@ -19,10 +21,11 @@
         display: grid;
         align-items: center;
         background-color: #edcb54;
-        margin-top:41em;
+        margin-top:38em;
         transform: translateX(170%);
+        transition: all 0.6s;
     }
     .nav-bar .menu-toggle{
-        transform: translateX(0%);
+        transform: translateX(67%);
     }
 }
