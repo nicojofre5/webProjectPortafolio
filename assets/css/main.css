@@ -43,6 +43,41 @@ li a{
     grid-column: 8/9;
     cursor: pointer;
 }
+
+/* Section main */
+.hero{
+    height: 80vh;
+    background-image:url(/assets/img/ChriStern45.jpg);
+    background-size: cover;
+    max-width: 100%;
+    display:grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: (repeat(8,1fr));
+}
+.hero .info-content{
+    grid-column: 9/10;
+    grid-row: 3/7;
+    color: #fff;
+}
+.hero h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.hero h1{
+    font-size: 5em;
+    color: #edcb54;   
+}
+.hero p{
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+.hero .btn{
+    font-size: 1em;
+}
+
+
+
 /*Fuentes  */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300&family=Roboto:ital,wght@0,100;0,400;1,500&display=swap');
