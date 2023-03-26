@@ -1,6 +1,8 @@
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:800px) {
     .nav-bar{
         position: relative;
+   
+       
 
     }
     .nav-bar .shopping{
@@ -11,7 +13,8 @@
         grid-column: 8/9;
         font-size: 2em;
         cursor: pointer;
-        z-index: 1;
+       
+
       
     }
     .nav-bar .menu{
@@ -20,13 +23,23 @@
         height: 70vh;
         display: grid;
         align-items: center;
+        justify-content: center;
+        text-align: center;
         background-color: #edcb54;
         margin-top:38em;
-        transform: translateX(250%);
-        transition: all 0.6s;
-        text-align: center;
+        transform: translateY(-150%);
+        transition: all 1.4s;
+       
+     
     }
     .nav-bar .menu-toggle{
-        transform: translateX(150%);
+        transform: translateY(0%);
+    }
+    .hero .info-content{
+        grid-column: 2/10;
+        grid-row: 4/8;
+    }
+    .hero h1{
+        font-size: 3.5em;
     }
 }
