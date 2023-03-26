@@ -3,4 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*  */
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+.nav-bar{
+    background-color: #edcb54;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    align-items: center
+
+}
+.nav-bar .logo{
+    width: 60px;
+    height: 60px;
+    grid-column: 2/3;
+}
+/*Fuentes  */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300&family=Roboto:ital,wght@0,100;0,400;1,500&display=swap');
+
