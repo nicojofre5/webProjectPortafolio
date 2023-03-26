@@ -12,6 +12,7 @@ ul{
 }
 body{
     font-family:'Roboto', sans-serif;
+    overflow: hidden;
 }
 
 .nav-bar{
@@ -52,7 +53,7 @@ li a{
 
 /* Section main */
 .hero{
-    height: 80vh;
+    height: 85vh;
     background-image:linear-gradient(rgba(16,16,16,0.8),rgba(16, 16, 16, 0.532)),url(/assets/img/ChriStern45.jpg);
     background-size: cover;
     max-width: 100%;
@@ -121,6 +122,19 @@ footer{
 .footer .follow-me{
     grid-template-areas: follow-me;
     text-align: center;
+}
+.footer .social-network{
+    grid-template-areas: social-network;
+    font-size: 1.3em;
+    cursor: pointer;
+  
+}
+.footer .social-network .fa-brands{
+    margin-right: 15px;
+    color: #edcb54;
+}
+.footer .social-network .fa-brands:hover{
+    color:#fff;
 }
 
 /*Fuentes  */

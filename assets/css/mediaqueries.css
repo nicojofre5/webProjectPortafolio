@@ -27,12 +27,12 @@
         text-align: center;
         background-color: #edcb54;
         margin-top:38em;
-        transform: translateY(-150%);
-        transition: all 1.4s;
+        transform: translateX(250%);
+        transition: all 1.2s;
              
     }
     .nav-bar .menu-toggle{
-        transform: translateY(0%);
+        transform: translateX(152%);
     }
     .hero .info-content{
         grid-column: 2/10;
