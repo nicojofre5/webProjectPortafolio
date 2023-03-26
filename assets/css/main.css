@@ -94,6 +94,34 @@ li a{
     color: black;
 }
 
+/* Seccion footer */
+
+footer{
+    display: grid;
+    height: 80px;
+    align-items: center;
+    background-color: #181818;
+    color: #fff;
+    grid-template-areas:"listen-online follow-me social-network";
+
+}
+.footer .listen-online{
+    grid-template-areas:listen-online;
+    display: flex;
+    justify-content: center;
+    background-color: #edcb54; 
+    padding: 26px;
+    color:#181818;
+
+}
+.footer .listen-online .fa-sharp{
+    font-size:1.5em;
+    margin-right: 15px;
+}
+.footer .follow-me{
+    grid-template-areas: follow-me;
+    text-align: center;
+}
 
 /*Fuentes  */
 
