@@ -1,0 +1,28 @@
+@media only screen and (max-width:600px) {
+    .nav-bar{
+        position: relative;
+    }
+    .nav-bar .shopping{
+        display: none;
+    }
+    .nav-bar .menu-bar{
+        display: block;
+        grid-column: 8/9;
+        font-size: 2em;
+        cursor: pointer;
+      
+    }
+    .nav-bar .menu{
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        align-items: center;
+        background-color: #edcb54;
+        margin-top:41em;
+        transform: translateX(170%);
+    }
+    .nav-bar .menu-toggle{
+        transform: translateX(0%);
+    }
+}

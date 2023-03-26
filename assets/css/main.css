@@ -18,7 +18,7 @@ body{
     background-color: #edcb54;
     display: grid;
     grid-template-columns: repeat(8,1fr);
-    align-items: center
+    align-items: center;
 
 }
 .nav-bar .logo{
@@ -38,6 +38,7 @@ li a{
 .nav-bar .menu-bar{
     display: none;
 }
+
 .nav-bar .shopping{
     grid-column: 8/9;
     cursor: pointer;
