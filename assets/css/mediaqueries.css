@@ -22,10 +22,11 @@
         align-items: center;
         background-color: #edcb54;
         margin-top:38em;
-        transform: translateX(170%);
+        transform: translateX(250%);
         transition: all 0.6s;
+        text-align: center;
     }
     .nav-bar .menu-toggle{
-        transform: translateX(67%);
+        transform: translateX(150%);
     }
 }
