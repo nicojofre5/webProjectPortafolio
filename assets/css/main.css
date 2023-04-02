@@ -12,7 +12,7 @@ ul{
 }
 body{
     font-family:'Roboto', sans-serif;
-    overflow: hidden;
+  
 }
 
 .nav-bar{
@@ -36,6 +36,8 @@ body{
 li a{
     color: #181818;
     padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .nav-bar .menu-bar{
     display: none;
@@ -99,7 +101,7 @@ li a{
 
 footer{
     display: grid;
-    height: 80px;
+   
     align-items: center;
     background-color: #181818;
     color: #fff;
